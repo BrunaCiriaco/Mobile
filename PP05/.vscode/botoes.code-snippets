@@ -1,0 +1,21 @@
+{
+	 "botoes": {
+	 	"scope": "javascript",
+	 	"prefix": "CreateBotoes",
+	 	"body": [
+			"import React from 'react'",
+			"import { StyleSheet, Text, View,TouchableOpacity,Alert } from 'react-native';",
+			
+			"export default createBotoes = () => {",
+			  "return (",
+				"<View >",
+				  "<TouchableOpacity onPress={() => Alert.alert()}>",
+							"<Text></Text>",
+				  "</TouchableOpacity>",
+				"</View>",
+			 ");",
+			"}",
+	 	],
+	 	"description": "Log output to console"
+	 }
+}
